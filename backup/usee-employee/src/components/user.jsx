@@ -10,7 +10,7 @@ class User extends React.Component{
   render(){
     return<>
     <h1>hello</h1>
-    <Employee user={this.user} eid={101}/>
+    <Employee user={this.user} happy={102} eid={101}/>
     </>
   }
 }
